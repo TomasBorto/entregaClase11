@@ -1,0 +1,25 @@
+<div>
+  <h1>Inyección de session</h1>
+  {{! <h1>Inyección de cookies</h1> }}
+  {{! <form id="cookieForm" onsubmit="return false">
+        <label>Username</label>
+        <input name="username">
+        <br />
+        <label>password</label>
+        <input name="password">
+        <input type="submit">
+    </form> }}
+  <form method="POST" action="/session/login">
+    <label>Username</label>
+    <input name="username" />
+    <br />
+    <label>password</label>
+    <input name="password" />
+    <input type="submit" />
+  </form>
+  <a href="session/github">
+    Entrar con GitHub
+  </a>
+  {{! <button onclick="getCookie()">Ver Cookie</button> }}
+</div>
+{{! <script src="/virtual/js/cookieSetter.js"></script> }}
